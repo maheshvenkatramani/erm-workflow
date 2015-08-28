@@ -1,0 +1,11 @@
+applications:
+- services:
+  - erm-workflow-service
+  - erm-patient-db
+  disk_quota: 1024M
+  host: erm-workflow
+  name: erm-workflow
+  path: .
+  domain: mybluemix.net
+  instances: 1
+  memory: 384M
